@@ -16,7 +16,7 @@
     <li>
       <a href="#About">About</a>
     </li>
-    <li><a href="#model_1">Model Converting Instructions</a></li>
+    <li><a href="#model converting instructions">Model Converting Instructions</a></li>
     <li><a href="#references">References</a></li>
   </ol>
 
@@ -26,7 +26,7 @@
 I was really inspired by the work of Yiding Jiang and his group in the paper "Predicting the generalization gap in deep networks with margin distributions", and sought to replicate the work in pytorch. Along the way I noticed that many papers that use similiar methods to predict generalization lacked full pytorch implimentations, and sought to convert them. 
 
 
-<!-- model_1 -->
+<!-- MODEL CONVERTING INSTRUCTIONS -->
 ## Model Converting Instructions
 
 <!-- LICENSE -->
