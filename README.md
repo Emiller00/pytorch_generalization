@@ -18,6 +18,7 @@
     </li>
     <li><a href="#model converting instructions">Model Converting Instructions</a></li>
     <li><a href="#references">References</a></li>
+    <li><a href="#related libraries">Related Libraries</a></li>
   </ol>
 
 <!-- ABOUT -->
@@ -47,6 +48,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- Related Libraries -->
 ## Related Libraries
 
-<!-- Related Libraries -->
-## Related Libraries
-* [1]Y. Jiang, D. Krishnan, H. Mobahi, and S. Bengio, “Predicting the Generalization Gap in Deep Networks with Margin Distributions,” arXiv:1810.00113 [cs, stat], Jun. 2019, Accessed: Jul. 27, 2020. [Online]. Available: http://arxiv.org/abs/1810.00113.
+[generalizatio gap features tensorflow ](https://github.com/mostafaelaraby/generalization-gap-features-tensorflow)
