@@ -29,6 +29,11 @@ I was really inspired by the work of Yiding Jiang and his group in the paper "Pr
 <!-- MODEL CONVERTING INSTRUCTIONS -->
 ## Model Converting Instructions
 
+1. Clone this repo
+2. Download Starting kit and Public Data from [Codalab](https://competitions.codalab.org/competitions/25301#learn_the_details-get_starting_kit)
+3. Add path to "ingestion_program" , in line 7 of 'convert_models.py'
+4. Add path to "input_data", in line 19 of 'convert_models.py'
+
 <!-- LICENSE -->
 ## License
 
