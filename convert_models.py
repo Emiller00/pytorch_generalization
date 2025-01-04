@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 import torch
 
-# Setip data manager
+# Setup data manager
 
 basename='task1_v4'
 
