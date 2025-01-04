@@ -1,22 +1,26 @@
 from sys import path
+from local_paths import ingestion_program_path, input_dir_path
 from os import makedirs
 from os.path import isdir
 
-program_dir = #<path to>/starting_kit/ingestion_program 
+program_dir =ingestion_program_path
+
 assert isdir(program_dir)
 path.append(program_dir)
 
 from data_manager import DataManager 
+
 from scripts.ct_model import CTModel
 from tqdm import tqdm
 
 import torch
 
-# Setup data manager
+# Setip data manager
 
 basename='task1_v4'
 
-input_dir= #<path to>/data/public_data/input_data'
+input_dir= input_dir_path
+
 data_manager = DataManager(basename, input_dir)
 
 # Grab training data
