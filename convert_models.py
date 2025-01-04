@@ -31,7 +31,7 @@ training_data = data_manager.load_training_data()
  
 makedirs('pt_models', exist_ok=True)
 
-for model_name in tqdm(data_manager.model_ids[:20]):
+for model_name in tqdm(data_manager.model_ids):
     
     model = data_manager.load_model(model_name)
 
