@@ -109,7 +109,11 @@ def main():
     print(" running model {} with {} workers".format(model_name, args.workers))
 
     data_loader = get_data_loader(
-        data_path=data_path, device=device, batch_size=64, num_workers=args.workers, pin_memory=pin_memory
+        data_path=data_path,
+        device=device,
+        batch_size=batch_size,
+        num_workers=args.workers,
+        pin_memory=pin_memory,
     )
 
 

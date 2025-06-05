@@ -41,7 +41,7 @@ def get_margin_distribution(model,X,y,margin_length=4):
 
     num_class = output.shape[1]
     # get list relating to each batch
-    rr = torch.arange(64).to('cuda:0') # Hardcoded to be on cuda device #Will need to be updated asap
+    rr = torch.arange(batch_size, device=X.device)
 
     # get indexes max values for batch
     max_val = torch.argmax(output,dim=1)
