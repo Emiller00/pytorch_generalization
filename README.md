@@ -35,6 +35,12 @@ I was really inspired by the work of Yiding Jiang and his group in the paper "Pr
 3. Add path to "ingestion_program" , in line 7 of 'convert_models.py'
 4. Add path to "input_data", in line 19 of 'convert_models.py'
 
+<!-- INPUT MARGIN COMPUTATION -->
+## Input Margin Computation
+
+Run `compute_input_margins.py` to generate the input margin statistics for the
+converted models using the method of Mouton et al. [2].
+
 <!-- LICENSE -->
 ## License
 
@@ -43,6 +49,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- References -->
 ## References
 * [1]Y. Jiang, D. Krishnan, H. Mobahi, and S. Bengio, “Predicting the Generalization Gap in Deep Networks with Margin Distributions,” arXiv:1810.00113 [cs, stat], Jun. 2019, Accessed: Jul. 27, 2020. [Online]. Available: http://arxiv.org/abs/1810.00113.
+* [2]S. Mouton, B. Barrett, and L. Dinh, “Input margins can predict generalization too,” 2022.
 
 
 <!-- Related Libraries -->
